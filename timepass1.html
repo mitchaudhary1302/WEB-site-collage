@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page:1</title>
+    <link rel="stylesheet" href="timepass2.css">
+</head>
+<body>
+
+    <div id="preloader">
+    </div>
+
+    
+    <div class="h">
+    <div class="v">
+    <nav>
+    <div class="c2">
+         <img src="photo/home.png" alt="" class="d" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button" >
+        <div ><a class="c"  href="https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button">Syllabus</a></div>
+        <div ><a class="c" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button">Placement</a></div>
+        <div ><a class="c" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button">Events</a></div>
+        <div><a  class="c" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button">Faculty</a></div>
+    </div>
+    </nav></div>
+    </div>
+    
+    <div class="p">
+        <div class="u">
+            <div class="m">
+                <div class="n"> <a class="t" href="timepass4.html">PAGE1</a></div>
+                <div class="n"><a class="t" href="timepass3.html">PAGE2</a></div>
+                <div class="n"><a class="t" href="timepass5.html">PAGE3</a></div>
+                <div class="n"><a class="t" href="timepass6.html">PAGE4</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pri">
+        <a href="timepass4.html" alt="page is not found">
+        <img src="photo/pm.png" id="pri1">
+        </a>
+    </div>
+    
+
+<script>
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load",function(){
+        setTimeout(() => {
+        loader.style.opacity = "0";  
+        setTimeout(() => {
+            loader.style.display = "none";  
+            document.body.style.overflow = "auto";
+        }, 1000); 
+    }, 3000); 
+    });
+
+</script>
+    
+</body>
+</html>
+
+

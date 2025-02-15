@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+font-family: poppins;
+margin: 0%;
+padding: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(91, 91, 228);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    
+}
+
+.h{
+    display: flex;
+    justify-content: center;
+
+}
+
+.v{
+    backdrop-filter: blur(10%);
+    display: flex;
+    justify-content: space-around;
+    max-width: 1500px;
+    
+    position: -webkit-sticky;
+    margin: 0px;
+    width: 50%;
+    background-color:#dbe0ec61;
+    overflow: hidden;
+    border-bottom-right-radius: 61px;
+    border-bottom-left-radius: 61px;
+   
+    }
+
+.c2{
+
+padding: 25px;
+display: flex;
+gap:30px;
+align-items: center;
+margin: 10px;
+overflow: hidden;
+border-radius: 35px;
+}
+
+.c{
+    padding: 30px;
+    color: rgb(245, 241, 241);
+    font-weight: 600;
+    text-decoration:none ;
+    color: inherit; 
+    font-size: 37px;
+    border-radius: 30px;
+    backdrop-filter: blur(50%);
+}
+.c:hover{
+background-color:rgb(140, 137, 137);
+}
+
+img{
+margin: 20px;
+height: 70px;
+width: 70px;
+padding-right: 24px;
+}
+
+.d{
+    
+    display: flex;
+    flex-direction: row;
+    float: left;
+    color: white;
+    font-weight: 600;
+    color: inherit;  
+}
+
+
+.p{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.u{
+backdrop-filter: blur(10px);
+height: 700px;
+display: flex;
+overflow: hidden;
+border-radius: 35px;
+width: 50%;
+margin-top: 150px;
+background-color:#dbe0ec61;
+}
+
+.m{
+backdrop-filter: blur(10%);
+width: 90%;
+display: flex;
+flex-direction : column;
+padding: 76px;;
+border-radius: 20px;
+height: 600px;
+
+}
+.n{
+    color: inherit; 
+    padding: 25px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid rgb(71, 66, 66);
+    margin: 10px;
+    backdrop-filter: blur(50%);
+}
+.n:hover{
+background-color: rgb(140, 137, 137);
+transform: translateX(30px);
+}
+.t{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-decoration:none;
+    color: inherit; 
+    font-size: 37px;
+}
+.pri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 95%;
+    bottom: 45%;
+    cursor: pointer;
+    }
+.pri:hover{
+    transform: translateX(10px);
+}
+#preloader{
+    background: #000 url(photo/piu.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+
+
+
